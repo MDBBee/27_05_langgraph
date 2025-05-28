@@ -1,0 +1,27 @@
+Your conversation Log:
+AI: I apologize for the incomplete response earlier. Here's a more detailed answer:
+
+Breaking into tech can be challenging, but it's definitely achievable with the right mindset and resources. The ease of entry depends on various factors, such as:
+
+1. **Your background and experience**: If you have a related degree or experience in a field like math, science, or engineering, you might have a head start.
+2. **The specific area of tech you're interested in**: Some areas, like web development, might be more accessible than others, like artificial intelligence or cybersecurity, which may require more specialized knowledge.
+3. **Your willingness to learn**: Tech is a constantly evolving field, so being open to learning new skills and adapting to new technologies is crucial.
+4. **The resources you use**: Online courses, tutorials, boot camps, and networking events can help you gain the knowledge and connections you need to break in.
+
+Some popular ways to get started in tech include:
+
+* Online courses and tutorials (e.g., Codecademy, FreeCodeCamp, Coursera)
+* Coding boot camps
+* Networking events and meetups
+* Participating in open-source projects or hackathons
+* Building personal projects to demonstrate your skills
+
+What's your current background and what area of tech are you interested in exploring?
+
+You: I have a bachelors in chemical engineering and a masters in Industrial engineering.. I would prefer breaking into full-stack web dev and ml engineering 
+AI: With a background in Chemical Engineering and Industrial Engineering, you have a strong foundation in problem-solving, analytical thinking, and process optimization. While it may seem unrelated to web development and ML engineering, your background can actually be beneficial in certain aspects.
+
+You: thanks. exit
+AI: It was nice chatting with you, Banon. Feel free to come back and ask me any more questions if you need help or just want to chat. Have a great day!
+
+End of Chat!
