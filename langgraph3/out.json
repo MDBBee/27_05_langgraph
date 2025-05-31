@@ -1,72 +1,121 @@
+"Rags 1_basic"-
+
 {
-  "content": "",
-  "additional_kwargs": {
-    "function_call": {
-      "name": "tavily_search_results_json",
-      "arguments": "{\"query\": \"weather in Vaasa, Finland\"}"
-    }
-  },
-  "response_metadata": {
-    "prompt_feedback": {
-      "block_reason": 0,
-      "safety_ratings": []
-    },
-    "finish_reason": "STOP",
-    "model_name": "gemini-2.0-flash",
-    "safety_ratings": []
-  },
-  "id": "run--1c507f4f-3bdb-4015-841e-5f96f14828e0-0",
-  "tool_calls": [
+  "documents": [
     {
-      "name": "tavily_search_results_json",
-      "args": {
-        "query": "weather in Vaasa, Finland"
+      "metadata": {
+        "source": "hours.txt"
       },
-      "id": "9af3b34d-f85d-48aa-92b9-b07695d0cf90",
-      "type": "tool_call"
+      "page_content": "Peak Performance Gym is open Monday through Friday from 5:00 AM to 11:00 PM. On weekends, our hours are 7:00 AM to 9:00 PM. We remain closed on major national holidays. Members with Premium access can enter using their key cards 24/7, including holidays."
+    },
+    {
+      "metadata": {
+        "source": "trainers.txt"
+      },
+      "page_content": "Personal trainers at Peak Performance Gym are all certified professionals with minimum 5 years of experience. Each new member receives a complimentary fitness assessment and one free session with a trainer. Our head trainer, Neha Kapoor, specializes in rehabilitation fitness and sports-specific training. Personal training sessions can be booked individually (₹800/session) or in packages of 10 (₹7,000) or 20 (₹13,000)."
+    },
+    {
+      "metadata": {
+        "source": "membership.txt"
+      },
+      "page_content": "Our membership plans include: Basic (₹1,500/month) with access to gym floor and basic equipment; Standard (₹2,500/month) adds group classes and locker facilities; Premium (₹4,000/month) includes 24/7 access, personal training sessions, and spa facilities. We offer student and senior citizen discounts of 15% on all plans. Corporate partnerships are available for companies with 10+ employees joining."
     }
-  ],
-  "usage_metadata": {
-    "input_tokens": 60,
-    "output_tokens": 15,
-    "total_tokens": 75,
-    "input_token_details": {
-      "cache_read": 0
-    }
-  }
+  ]
 }
-// print(result["messages"][1].content)
 {
-    "messages": [
-      {
-        "type": "human",
-        "content": "Hi",
-        "additional_kwargs": {},
-        "response_metadata": {},
-        "id": "7ae072e7-858a-454a-8704-d618f36ff465"
+  "documents": [
+    {
+      "metadata": {
+        "source": "hours.txt"
       },
-      {
-        "type": "ai",
-        "content": "Hi, how can I help you today?",
-        "additional_kwargs": {},
-        "response_metadata": {
-          "prompt_feedback": {
-            "block_reason": 0,
-            "safety_ratings": []
-          },
-          "finish_reason": "STOP",
-          "model_name": "gemini-2.0-flash",
-          "safety_ratings": []
-        },
-        "id": "run--5dbfa6b1-7570-4143-b9cb-7983f05693ee-0",
-        "usage_metadata": {
-          "input_tokens": 50,
-          "output_tokens": 10,
-          "total_tokens": 60,
-          "input_token_details": {
-            "cache_read": 0
-          }
-        }
-      }
-    ]
-  }
+      "page_content": "Peak Performance Gym is open Monday through Friday from 5:00 AM to 11:00 PM. On weekends, our hours are 7:00 AM to 9:00 PM. We remain closed on major national holidays. Members with Premium access can enter using their key cards 24/7, including holidays."
+    },
+    {
+      "metadata": {
+        "source": "membership.txt"
+      },
+      "page_content": "Our membership plans include: Basic (₹1,500/month) with access to gym floor and basic equipment; Standard (₹2,500/month) adds group classes and locker facilities; Premium (₹4,000/month) includes 24/7 access, personal training sessions, and spa facilities. We offer student and senior citizen discounts of 15% on all plans. Corporate partnerships are available for companies with 10+ employees joining."
+    },
+    {
+      "metadata": {
+        "source": "trainers.txt"
+      },
+      "page_content": "Personal trainers at Peak Performance Gym are all certified professionals with minimum 5 years of experience. Each new member receives a complimentary fitness assessment and one free session with a trainer. Our head trainer, Neha Kapoor, specializes in rehabilitation fitness and sports-specific training. Personal training sessions can be booked individually (₹800/session) or in packages of 10 (₹7,000) or 20 (₹13,000)."
+    }
+  ]
+}
+
+
+
+// {
+//   "content": "",
+//   "additional_kwargs": {
+//     "function_call": {
+//       "name": "tavily_search_results_json",
+//       "arguments": "{\"query\": \"weather in Vaasa, Finland\"}"
+//     }
+//   },
+//   "response_metadata": {
+//     "prompt_feedback": {
+//       "block_reason": 0,
+//       "safety_ratings": []
+//     },
+//     "finish_reason": "STOP",
+//     "model_name": "gemini-2.0-flash",
+//     "safety_ratings": []
+//   },
+//   "id": "run--1c507f4f-3bdb-4015-841e-5f96f14828e0-0",
+//   "tool_calls": [
+//     {
+//       "name": "tavily_search_results_json",
+//       "args": {
+//         "query": "weather in Vaasa, Finland"
+//       },
+//       "id": "9af3b34d-f85d-48aa-92b9-b07695d0cf90",
+//       "type": "tool_call"
+//     }
+//   ],
+//   "usage_metadata": {
+//     "input_tokens": 60,
+//     "output_tokens": 15,
+//     "total_tokens": 75,
+//     "input_token_details": {
+//       "cache_read": 0
+//     }
+//   }
+// }
+// // print(result["messages"][1].content)
+// {
+//     "messages": [
+//       {
+//         "type": "human",
+//         "content": "Hi",
+//         "additional_kwargs": {},
+//         "response_metadata": {},
+//         "id": "7ae072e7-858a-454a-8704-d618f36ff465"
+//       },
+//       {
+//         "type": "ai",
+//         "content": "Hi, how can I help you today?",
+//         "additional_kwargs": {},
+//         "response_metadata": {
+//           "prompt_feedback": {
+//             "block_reason": 0,
+//             "safety_ratings": []
+//           },
+//           "finish_reason": "STOP",
+//           "model_name": "gemini-2.0-flash",
+//           "safety_ratings": []
+//         },
+//         "id": "run--5dbfa6b1-7570-4143-b9cb-7983f05693ee-0",
+//         "usage_metadata": {
+//           "input_tokens": 50,
+//           "output_tokens": 10,
+//           "total_tokens": 60,
+//           "input_token_details": {
+//             "cache_read": 0
+//           }
+//         }
+//       }
+//     ]
+//   }
