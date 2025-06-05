@@ -1,0 +1,251 @@
+{
+  "message": {
+    "content": "Hi Bobby! It's nice to meet you. How can I help you today?",
+    "additional_kwargs": {},
+    "response_metadata": {
+      "prompt_feedback": {
+        "block_reason": 0,
+        "safety_ratings": []
+      },
+      "finish_reason": "STOP",
+      "model_name": "gemini-2.0-flash",
+      "safety_ratings": []
+    },
+    "id": "run--cdd0824b-f0c4-45fe-8041-81e1a3b9084e-0",
+    "usage_metadata": {
+      "input_tokens": 7,
+      "output_tokens": 19,
+      "total_tokens": 26,
+      "input_token_details": {
+        "cache_read": 0
+      }
+    }
+  }
+}
+
+{
+    "message": {
+      "content": "Okay, Bobby! I'm here to help. Tell me, what kind of math problem are you working on? The more specific you are, the better I can assist you. For example, are you working on:\n\n*   **Basic arithmetic?** (addition, subtraction, multiplication, division)\n*   **Algebra?** (solving for variables, equations, inequalities)\n*   **Geometry?** (shapes, angles, area, volume)\n*   **Trigonometry?** (sine, cosine, tangent)\n*   **Calculus?** (derivatives, integrals)\n*   **Statistics?** (mean, median, mode, probability)\n*   **Something else?**\n\nAlso, if you have a specific problem you're struggling with, please share it with me! I can help you:\n\n*   **Understand the concepts**\n*   **Walk through the steps**\n*   **Identify common mistakes**\n*   **Find resources for further learning**\n\nLet's get started! What's on your mind, Bobby?",
+      "additional_kwargs": {},
+      "response_metadata": {
+        "prompt_feedback": {
+          "block_reason": 0,
+          "safety_ratings": []
+        },
+        "finish_reason": "STOP",
+        "model_name": "gemini-2.0-flash",
+        "safety_ratings": []
+      },
+      "id": "run--ad01e6c0-7b28-45ea-b90b-01161e8df6c9-0",
+      "usage_metadata": {
+        "input_tokens": 13,
+        "output_tokens": 224,
+        "total_tokens": 237,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    }
+  }
+
+  {
+    "conversation": [
+      {
+        "turn": 1,
+        "messages": [
+          {
+            "role": "human",
+            "content": "Hi, I am Henry",
+            "id": "abae2ce7-120f-496c-ab4d-dc0ac8f3a538"
+          },
+          {
+            "role": "assistant",
+            "content": "Hi Henry, it's nice to meet you! How can I help you today?",
+            "id": "run--f283919d-447a-4983-b032-ab250e6cccee-0",
+            "metadata": {
+              "tokens": {
+                "input": 5,
+                "output": 19,
+                "total": 24
+              }
+            }
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "messages": [
+          {
+            "role": "human",
+            "content": "what are you good at?",
+            "id": "ecd8c439-7968-469d-a2e6-b0a6f4d53716"
+          },
+          {
+            "role": "assistant",
+            "content": "I am a large language model...",
+            "id": "run--4fc3b09c-411f-4d40-80fe-00f0d5b72fc7-0",
+            "metadata": {
+              "tokens": {
+                "input": 6,
+                "output": 423,
+                "total": 429
+              }
+            }
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "messages": [
+          {
+            "role": "human",
+            "content": "Can you help me with prompt generation?",
+            "id": "675153b0-02c2-4bda-9a1a-58ed364b47c4"
+          },
+          {
+            "role": "assistant",
+            "content": "Okay, I'd love to help you with prompt generation...",
+            "id": "run--b8c1c2e9-a653-4d30-9ec2-da337ad30f21-0",
+            "metadata": {
+              "tokens": {
+                "input": 8,
+                "output": 992,
+                "total": 1000
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+// Memory saver checkpointer- print(app.get_state(config=config))
+  {
+    "state": {
+      "values": {
+        "messages": [
+          {
+            "role": "human",
+            "content": "Hi, I am Henry",
+            "id": "fd78c958-e4c7-48f9-9923-0c63c59eb09e"
+          },
+          {
+            "role": "assistant",
+            "content": "Hello Henry, how can I help you today?",
+            "id": "run--eb59d211-8369-40b9-a449-60f49311a228-0",
+            "metadata": {
+              "model": "gemini-2.0-flash",
+              "tokens": {
+                "input": 54,
+                "output": 11,
+                "total": 65
+              }
+            }
+          },
+          {
+            "role": "human",
+            "content": "What is the current weather in Vaasa, Finland?",
+            "id": "be428748-72d1-4ae1-9462-8d0156d4e204"
+          },
+          {
+            "role": "assistant",
+            "tool_calls": [
+              {
+                "name": "tavily_search_results_json",
+                "args": {
+                  "query": "current weather in Vaasa, Finland"
+                },
+                "id": "ae685a84-7bba-48f5-9b78-b3de9d244ba1",
+                "type": "tool_call"
+              }
+            ],
+            "id": "run--f7646877-bf8b-4a0a-b15e-fc7908ab0062-0",
+            "metadata": {
+              "tokens": {
+                "input": 75,
+                "output": 16,
+                "total": 91
+              }
+            }
+          },
+          {
+            "role": "tool",
+            "name": "tavily_search_results_json",
+            "results": [
+              {
+                "title": "Vaasa, Ostrobothnia, Finland Monthly Weather | AccuWeather",
+                "url": "https://www.accuweather.com/en/fi/vaasa/134772/may-weather/134772",
+                "content": "Get the monthly weather forecast for Vaasa, Ostrobothnia, Finland, including daily high/low, historical averages, to help you plan ahead.",
+                "score": 0.98548
+              },
+              {
+                "title": "Vaasa weather in June 2025 - Weather25.com",
+                "url": "https://www.weather25.com/europe/finland/western-finland/vaasa?page=month&month=June",
+                "content": "The temperatures in Vaasa in June are quite cold with temperatures between 48°F and 57°F, warm clothes are a must. You can expect about 3 to 8 days of rain",
+                "score": 0.98323
+              }
+            ],
+            "id": "c92b21a9-93fb-40de-871f-f78d1bd447cf",
+            "tool_call_id": "ae685a84-7bba-48f5-9b78-b3de9d244ba1",
+            "response_time": 5.12
+          },
+          {
+            "role": "assistant",
+            "content": "I'm sorry, I don't have enough information to give you the current weather in Vaasa. However, I can tell you that the temperatures in Vaasa in June are quite cold, between 48°F and 57°F. You can expect about 3 to 8 days of rain.",
+            "id": "run--33fa1c6a-68e9-44b3-9951-4d57ae8c08bd-0",
+            "metadata": {
+              "tokens": {
+                "input": 275,
+                "output": 66,
+                "total": 341
+              }
+            }
+          },
+          {
+            "role": "human",
+            "content": "?",
+            "id": "e7332a65-aeca-488a-9f12-2ce7496bb25c"
+          },
+          {
+            "role": "assistant",
+            "content": "Is there anything else I can help you with?",
+            "id": "run--ecf53752-c097-4300-8ff4-f4cd90b98bcf-0",
+            "metadata": {
+              "tokens": {
+                "input": 342,
+                "output": 11,
+                "total": 353
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "source": "loop",
+        "step": 9,
+        "thread_id": 1,
+        "created_at": "2025-06-05T03:31:54.422518+00:00",
+        "checkpoint_id": "1f041bda-0672-69a0-8009-150d156dac70"
+      }
+    }
+  }
+// 03-RAGS- Chatprompt template
+{
+  "prompt_template": {
+    "type": "chat",
+    "input_variables": [
+      "context",
+      "question"
+    ],
+    "messages": [
+      {
+        "role": "human",
+        "template": "\nAnswer the question based only on the following context: {context}\nQuestion: {question}\n"
+      }
+    ],
+    "metadata": {
+      "input_types": {},
+      "partial_variables": {}
+    }
+  }
+}
